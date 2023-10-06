@@ -8,7 +8,7 @@ new TypeIt('.home__title--strong', {
   // // .type('Amazing ') //Amazing |Dream Coder
   // // .pause(1000)
   // .move(null, { to: 'END' }) //Amazing Dream Coder|
-  // .delete() //|
+  .delete() 
   .type('Front-end Engineer') //Front-end Engineer|
   .pause(1000)
   .move(-9) //Front-end| Engineer
