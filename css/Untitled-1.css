@@ -1,5 +1,5 @@
 /* Global */
-:root { 
+:root {
   /* App Colors */
   --color-primary: var(--color-black);
   --color-primary-variant: var(--color-gray);
@@ -198,8 +198,8 @@ button:focus {
   background: var(--home-avatar-svg);
   position: relative;
   bottom: -70px;
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
   transform: scaleX(-1) rotate(-5deg);
 }
@@ -435,7 +435,6 @@ button:focus {
 
 .project__img {
   width: 100%;
-  height: 80%;
 }
 
 .project__metadata {
@@ -481,7 +480,6 @@ button:focus {
   gap: 2rem;
   align-items: center;
   margin-bottom: 2rem;
-  /* justify-content: center; */
 }
 
 .testimonial:nth-child(even) .testimonial__img {
@@ -489,9 +487,9 @@ button:focus {
 }
 
 .testimonial__img {
-  width: 180px;
-  height: 30px;
-  /* border-radius: 100%; */
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -638,7 +636,6 @@ button:focus {
 
   .testimonial {
     flex-direction: column;
-    justify-content: center;
   }
 
   .testimonial:nth-child(even) .testimonial__img {
