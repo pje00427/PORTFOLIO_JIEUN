@@ -189,7 +189,7 @@ button:focus {
 
 .home__container {
   position: relative;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   padding-top: 3rem;
 }
