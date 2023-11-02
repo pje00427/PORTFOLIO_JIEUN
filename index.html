@@ -46,6 +46,13 @@
     <script type="module" src="src/projects.js" defer></script>
     <script type="module" src="src/active_menu.js" defer></script>
     <script type="module" src="src/type.js" defer></script>
+    
+    <script>
+        function openWindowPop(url, name){
+        var options = 'top=10, left=10, width=100, height=100, status=no';
+        window.open(url, name, options);
+}
+    </script>
   </head>
   <body>
     <!-- Header -->
@@ -81,9 +88,9 @@
             alt="jieun's profile"
           />
           <div>
-            <h2 class="home__title" aria-label="Hello, I'm  engineer jieun">
+            <h2 class="home__title" aria-label="Hello, I'm  Engineer jieun">
               Hello <br />I&#39;m
-              <strong class="home__title--strong"> engineer</strong>, jieun
+              <strong class="home__title--strong"> Engineer</strong>, jieun
             </h2>
             <p class="home__description">
                 I&#39;m a junior developer who enjoys challenges
@@ -247,7 +254,7 @@
           </ul>
           <ul class="projects">
             <li class="project" data-type="front-end">
-              <a href="#" target="_blank">
+              <a href="javascript:openWindowPop('popup.html', 'popup')" >
                 <img
                   src="images/projects/project1.webp"
                   alt="project1"

@@ -1,4 +1,11 @@
 /* Global */
+.popsection {
+  width : 100px;
+}
+.popsection_img{
+  width: 3rem;
+  height: 3rem;
+}
 :root { 
   /* App Colors */
   --color-primary: var(--color-black);

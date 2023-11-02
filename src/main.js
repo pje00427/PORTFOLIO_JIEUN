@@ -10,6 +10,12 @@ document.addEventListener('scroll', () => {
     header.classList.remove('header--dark');
   }
 });
+//javascript
+function openWindowPop(url, name){
+  alert('ehoTek')
+  var options = 'top=10, left=10, width=500, height=600, status=no, menubar=no, toolbar=no, resizable=no';
+  window.open(url, name, options);
+}
 
 // Home 섹션을 아래로 스크롤시 투명하게 처리함
 const home = document.querySelector('.home__container');

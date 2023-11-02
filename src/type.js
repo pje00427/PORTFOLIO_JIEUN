@@ -15,7 +15,7 @@ new TypeIt('.home__title--strong', {
   .delete(9) //| Engineer
   .type('Front-end') //Back-end| Engineer
   .pause(1000)
-  .delete(8) //| Engineer
+  .delete(9) //| Engineer
   .type('Full-stack') //Full-stack| Engineer
   .pause(1000)
   .move(9) //Full-stack Engineer|
